@@ -23,14 +23,14 @@ int main() {
         cin >> x[i];
     }
 
-    sort(x, n); // Urutkan koin dari besar ke kecil
+    sort(x, n); 
 
     cout << "\nMasukkan nilai total yang ingin ditukarkan: ";
     cin >> koin;
 
     for (i = 0; i < n; i++) {
-        hasil[i] = koin / x[i];   // Hitung jumlah koin
-        koin = koin % x[i];       // Sisa nilai
+        hasil[i] = koin / x[i];  
+        koin = koin % x[i];      
     }
 
     cout << "\n=== Hasil Penukaran ===\n";
