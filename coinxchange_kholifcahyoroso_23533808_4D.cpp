@@ -46,7 +46,6 @@ int main() {
     return 0;
 }
 
-// Fungsi sorting descending
 void sort(int a[], int siz) {
     int pass, hold, j;
     for (pass = 0; pass < siz - 1; pass++) {
